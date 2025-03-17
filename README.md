@@ -9,6 +9,11 @@
 | `03` | `Exibição de Elementos em Maiúsculo` | `Crie uma lista de palavras e exiba cada palavras em maiúsculo.` |
 | `04` | `Verificação de Paridade` | `Crie uma lista de números e verifique quais são pares e quais são ímpares, exibindo esssa informação.` |
 | `05` | `Imprimir Elementos de uma lista de Strings` | `Crie uma lista de nomes e imprima cada nome.` |
+| `06` | `Multiplicação de Todos os Elementos` | `Crie uma lista de números inteiros e calcule o produto de todos os números.` |
+| `07` | `Contagem de Ocorrências  de um Elemento` | `Crie uma lista de números e conte quantas vezes um números específico aparece.` |
+| `08` | `Transformação de Elementos para Inteiro` | `Crie uma lista de strings representando números e transforme cada elemeento para um número inteiro.` |
+| `09` | `Média de Notas` | `Crie uma lista de notas de alunos e calcule a média de todas as notas.` |
+
 
 
 ## 💻Explicação dos códigos
@@ -133,6 +138,8 @@ Também incluímos o número na mensagem para que o programa diga qual número �
 - O for-each percorre cada palavra da lista e calcula a quantidade de caracteres de cada uma com o método length().
 
 ![Capturar_2025_03_17_09_14_19_367](https://github.com/user-attachments/assets/0aec3d1e-1e78-421c-a5ca-d3f3c3317b73)
+
+-----------------------------------------------------------------------------------------------------------------------
 
 
 ### Exercício 08
