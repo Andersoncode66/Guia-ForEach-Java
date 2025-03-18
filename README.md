@@ -13,6 +13,12 @@
 | `07` | `Contagem de Ocorrências  de um Elemento` | `Crie uma lista de números e conte quantas vezes um números específico aparece.` |
 | `08` | `Transformação de Elementos para Inteiro` | `Crie uma lista de strings representando números e transforme cada elemeento para um número inteiro.` |
 | `09` | `Média de Notas` | `Crie uma lista de notas de alunos e calcule a média de todas as notas.` |
+| `10` | `Buscar Elementos em Lista` | `Crie uma lista de números e verifique se um número específico está presente na lista.` |
+| `11` | `Concatenando Strings` | `Crie uma lista de strings e concatene todas elas em uma única string.` |
+| `12` | `Comparar Listas` | `Crie duas listas de números e verifique se elas são iguais, ou seja, se possuem os mesmos elementos na mesma ordem.` |
+| `13` | `Contar o Número de Elementos em uma Lista` | `Crie uma lista de números e conte o total de elementos.` |
+| `14` | `Encontrar o Maior Elemento de uma Lista` | `Crie uma lista de números inteiros e encontre o maior valor na lista.` |
+| `15` | `Remover Elementos Negativos` | `Crie uma lista de números e remova todos os números negativos da lista.` |
 
 
 
