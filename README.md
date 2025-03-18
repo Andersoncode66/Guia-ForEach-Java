@@ -174,3 +174,63 @@ Também incluímos o número na mensagem para que o programa diga qual número �
 -----------------------------------------------------------------------------------------------------------------------
 
 
+### Exercício 10
+
+1. Buscar Elementos em Lista, for-each com if else e boleaan
+
+2. Definir o número a ser procurado
+- Precisamos de uma variável que armazenará o número que queremos buscar na lista. Vamos chamar essa variável de numeroProcurado.
+
+![Capturar_2025_03_18_09_25_30_195](https://github.com/user-attachments/assets/1e5759a1-a8ab-424e-961b-c1fc51839975)
+
+- Aqui, estamos dizendo que o número que queremos procurar na lista é o 30.
+
+3. Criar uma variável para marcar se encontramos o número
+- Vamos criar uma variável booleana chamada encontrado para indicar se o número foi encontrado na lista.
+
+![Capturar_2025_03_18_09_29_24_34](https://github.com/user-attachments/assets/15c65eb3-f2fc-4b23-8ad0-3d832a28c775)
+
+- Inicialmente, estamos assumindo que o número não foi encontrado, então encontrado começa como false.
+
+4. Percorrer a lista com for-each
+- Agora, vamos usar o for-each para percorrer todos os números na lista. O for-each facilita a leitura e evita que tenhamos que usar índices, tornando o código mais limpo.
+
+![Capturar_2025_03_18_09_31_22_61](https://github.com/user-attachments/assets/4dc7a899-3beb-4d86-b835-3eb3ac90d747)
+
+- for (int num : numeros): isso significa "para cada número num na lista numeros".
+- Dentro do for, usamos uma condicional (if) para comparar o número da lista (num) com o numeroProcurado.
+- Se o número na lista for igual ao numeroProcurado, marcamos a variável encontrado como true e saímos do loop com o comando break.
+
+5. Exibir o resultado
+- Depois de percorrer a lista, verificamos se o número foi encontrado, e mostramos o resultado.
+
+![Capturar_2025_03_18_09_32_56_496](https://github.com/user-attachments/assets/168b2f9d-5b55-41e6-898f-6f8edc88df45)
+
+- Se encontrado for true, significa que o número foi encontrado, e imprimimos que o número está na lista.
+- Se encontrado for false, significa que o número não foi encontrado, e mostramos essa mensagem.
+
+-----------------------------------------------------------------------------------------------------------------------
+
+### Exercício 11
+
+1. Concatenando Strings usando for-each e StringBuilder
+- Para concatenar as strings, podemos usar um StringBuilder, que é mais eficiente do que usar o operador + repetidamente em um laço.
+
+![Capturar_2025_03_18_09_36_05_335](https://github.com/user-attachments/assets/9cd7ea16-b1af-4ec3-9235-86e5197250ce)
+
+- StringBuilder é uma classe que permite concatenar strings de forma eficiente.
+- append(palavra) adiciona a string da lista ao StringBuilder.
+- append(" ") adiciona um espaço entre as palavras, para separar as palavras no resultado final.
+
+2. Exibir o resultado
+- Agora, vamos exibir a string resultante após concatenar todas as palavras da lista.
+
+![Capturar_2025_03_18_09_42_20_489](https://github.com/user-attachments/assets/6f764e26-b082-4c8f-a422-bbfd7abc2810)
+
+- A função toString() converte o StringBuilder de volta em uma string, e trim() remove qualquer espaço extra no final.
+
+-----------------------------------------------------------------------------------------------------------------------
+
+### Exercício 12
+
+
